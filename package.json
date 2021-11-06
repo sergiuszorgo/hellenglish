@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/hellenglish/",
+    "predeploy": "npm run build -- --public-url='/hellenglish/'",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
